@@ -285,6 +285,7 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="60" />
                         <RowDefinition Height="Auto" />
+                        <RowDefinition Height="60" />
                     </Grid.RowDefinitions>
                     <TextBlock Grid.Row="0" Grid.Column="0" Text="Java Launch Wrapper" TextWrapping="Wrap" FontWeight="Bold" />
                     <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2022 00ll00&#xa;Licensed under the MIT License." TextWrapping="Wrap" />
@@ -314,16 +315,23 @@
                     <local:MyButton Grid.Row="7" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://github.com/caioproiete/ookii-dialogs-wpf/blob/master/LICENSE" />
                     
-                    <TextBlock Grid.Row="8" Grid.Column="0" Text="Iconmonstr" TextWrapping="Wrap" FontWeight="Bold" />
-                    <TextBlock Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2019 iconmonstr (Alexander Kahlkopf)" TextWrapping="Wrap" />
+                    <TextBlock Grid.Row="8" Grid.Column="0" Text="Costura.Fody" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2012 Simon Cropp&#xa;Licensed under the MIT License." TextWrapping="Wrap" />
                     <local:MyButton Grid.Row="9" Grid.Column="2" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                EventType="打开网页" EventData="https://github.com/Fody/Costura" />
+                    <local:MyButton Grid.Row="9" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left" 
+                EventType="打开网页" EventData="https://github.com/Fody/Costura/blob/develop/LICENSE" />
+                    
+                    <TextBlock Grid.Row="10" Grid.Column="0" Text="Iconmonstr" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="10" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2019 iconmonstr (Alexander Kahlkopf)" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="11" Grid.Column="2" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://iconmonstr.com/" />
-                    <local:MyButton Grid.Row="9" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                    <local:MyButton Grid.Row="11" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://iconmonstr.com/license/" />
                     
-                    <TextBlock Grid.Row="10" Grid.Column="0" Text="Iconfont" TextWrapping="Wrap" FontWeight="Bold" />
-                    <TextBlock Grid.Row="10" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © ALIMAMA MUX, powered by alimama THX." TextWrapping="Wrap" />
-                    <local:MyButton Grid.Row="11" Grid.Column="2" MinWidth="140" Text="查看原网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                    <TextBlock Grid.Row="12" Grid.Column="0" Text="Iconfont" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="12" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © ALIMAMA MUX, powered by alimama THX." TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="13" Grid.Column="2" MinWidth="140" Text="查看原网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://www.iconfont.cn/" />
                 </Grid>
             </local:MyCard>
